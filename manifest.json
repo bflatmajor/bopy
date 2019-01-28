@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Bopy",
+    "version": "0.1.0",
+    "description": "Bopy (Boring Copy) - copy title and URL of the current page.",
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "browser_style": true
+    },
+    "background": {
+        "scripts": ["./background.js"]
+    }
+}
