@@ -1,5 +1,4 @@
-// @ts-nocheck
-
+// @ts-ignore
 const b = typeof chrome !== 'undefined' ? chrome : browser;
 
 const textarea = document.createElement('textarea');
